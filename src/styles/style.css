@@ -59,6 +59,9 @@ img {
     margin-right:auto;
 }
 
+.container {
+    max-width: 46rem;
+    }
 
 /* text styles */
 
@@ -203,6 +206,54 @@ p.caption {
 }
 
 
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    
+  }
+  .d3-tip-title{
+    line-height: 1;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    
+  }
+
+ 
+
+  .d3-tip-bar {
+    line-height: 1;
+    font: 14px sans-serif;
+    padding: 12px;
+    color: rgb(21, 19, 19);
+    border-radius: 2px;
+    font-weight: bold;
+  }
+  
+
+  .bar:hover {
+    fill: #0089A7;
+  }
+
+  .bar2:hover {
+    fill: #D05A6E;
+  }
+  
+  .circle:hover {
+    fill: #CB4042 ;
+    r: 5;
+  }
+
+   .annotation text {
+    fill: '#CB4042';
+    font-size: 13px;
+  }
+  
 
 /* mobile */
 
