@@ -1,0 +1,113 @@
+svg { 
+  display: block;
+  margin: auto;
+}
+
+h1 { margin-bottom: 2rem; }
+
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h3 { 
+  margin-top: 3rem; 
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 46rem;
+}
+
+img.block {
+  display: block;
+  border: solid #333 1p;
+  margin: 0 auto;
+}
+
+.axis line, .axis path {
+  stroke-width: 0.5;
+  stroke: #999;
+}
+
+#chart-1 svg {
+  background: #f6f6f6;
+}
+
+#chart-9 svg {
+  display: inline-block;
+}
+
+.g-highlight {
+  stroke: red;
+  stroke-width: 1;
+  fill: none;
+  stroke-dasharray: 2 5;
+  stroke-linecap: round;
+}
+
+.selected .g-highlight {
+  stroke: green;
+}
+
+.width-line {
+  stroke-width: 0.5;
+  stroke-dasharray: 2 5;
+  stroke-linecap: round;
+}
+text {
+  font-size: 12px;
+}
+
+.width-line-hidden .width-line,
+.width-line-hidden .width-text {
+  visibility: hidden;
+}
+
+.circle-coords-hidden .circle-coords {
+  visibility: hidden;
+}
+
+.g-highlight-hidden .g-highlight,
+.g-highlight-hidden .g-coords {
+  visibility: hidden;
+}
+
+pre.code {
+  background: #333;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+}
+pre em {
+  color: yellow;
+  font-style: normal;
+}
+.demo {
+  border: solid black 1px;
+  margin-bottom: 1rem;
+}
+
+
+    /* circle:nth-child(2n).CLE { fill: #FFB81C lighter } */
+
+
+
+circle:nth-child(even).CLE { fill: #FFB81C /* lighter */ }
+circle:nth-child(odd).CLE { fill: #c94435 /* darker */ }
+circle:nth-child(even).GSW { fill: #FDB927 /* lighter */ }
+circle:nth-child(odd).GSW { fill: #006BB6 /* darker */}
+circle:nth-child(even).HOU { fill: #CE1141 /* lighter */ }
+circle:nth-child(odd).HOU { fill: #C4CED4 /* darker */ }
+circle:nth-child(even).SAS  { fill: #C4CED4 /* lighter */ }
+circle:nth-child(odd).SAS  { fill: #767676 /* darker */ }
+circle:nth-child(even).NOP { fill: #C8102E /* lighter */ }
+circle:nth-child(odd).NOP { fill: #85714D /* darker */ }
+circle:nth-child(even).MIL { fill: #EEE1C6 /* lighter */ }
+circle:nth-child(odd).MIL { fill: #00471B /* darker */ }
+circle:nth-child(even).OKC { fill: #EF3B24 /* lighter */ }
+circle:nth-child(odd).OKC { fill: #007AC1 /* darker */ }
+circle:nth-child(even).PHI { fill: #ED174C /* lighter */ }
+circle:nth-child(odd).PHI { fill: #006BB6 /* darker */ }
+circle:nth-child(even).MIN { fill: #9EA2A2 /* lighter */ }
+circle:nth-child(odd).MIN { fill: #236192 /* darker */ }
