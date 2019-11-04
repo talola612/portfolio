@@ -30,9 +30,9 @@ img.block {
   stroke: #999;
 }
 
-#chart-1 svg {
+/* #chart-1 svg {
   background: #f6f6f6;
-}
+} */
 
 #chart-9 svg {
   display: inline-block;
@@ -88,8 +88,6 @@ pre em {
   margin-bottom: 1rem;
 }
 
-
-    /* circle:nth-child(2n).CLE { fill: #FFB81C lighter } */
 
 
 
