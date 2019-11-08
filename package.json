@@ -31,11 +31,11 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "glob": "^7.1.4",
-    "handlebars": "^4.3.0",
+    "handlebars": "^4.5.1",
     "http-server": "^0.11.1",
     "inline-source": "^7.1.0",
     "jest": "^24.9.0",
-    "parcel-bundler": "^1.12.3",
+    "parcel-bundler": "^1.12.4",
     "parcel-plugin-json-url-loader": "^0.1.2",
     "parcel-plugin-nuke-dist": "^1.0.0",
     "prettier": "^1.18.2",
@@ -44,6 +44,8 @@
   },
   "dependencies": {
     "@jsoma/parcel-plugin-handlebars": "^0.8.4",
-    "data": "^0.6.1"
+    "@turf/turf": "^5.1.6",
+    "data": "^0.6.1",
+    "polylabel": "^1.0.2"
   }
 }
