@@ -30,3 +30,14 @@ This project investigates on the sales data made public by StockX, which consist
 ## Data Source
 All data used in this project are released by StockX for the StockX Data Contest. The complete data set could be downloaded [here](https://stockx.com/news/the-2019-data-contest/). 
 "There are 99,956 total sales in the data set; 27,794 Off-White sales, and 72,162 Yeezy sales. The sample consists of U.S. sales only."
+
+
+## Final Project - Green Card Holder through H1B Visa
+
+* Link to project: [Final Project](#final)
+
+### Introduction
+This project examines on the approved cases of Green Card applied through H1-B visa. 
+
+### Data Source
+All data used in this project was obtained from scrapping the list of Green Card applications on the H1B Visa Salaries site. Find [here](https://h1bsalary.online/greencard_count_by_university.php) for the full list. A scraping notebook that contains initial data exploration could be found on [this github link](https://github.com/talola612/portfolio/blob/master/src/data/Green%20Card%20Application%20Data.ipynb)
