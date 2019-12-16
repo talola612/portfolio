@@ -102,6 +102,7 @@ svg {
   color:white;
 }
 
+
 /* This is the point where it collapses */
 @media (max-width:900px) {
   .scrollytelling > * {
