@@ -38,6 +38,14 @@ img {
   font-weight:700;
 }
 
+.story{
+  font-size:15px;
+  font-weight:500;
+  max-width:850px;
+  display: block;
+  margin:auto;
+}
+
 .box {
   width:800px;
   height:400px;
@@ -148,6 +156,9 @@ img {
   max-width: 46rem;
   }
 
+#final-chart-03 svg {
+  display: inline-block;
+}
 
 /* text styles */
 

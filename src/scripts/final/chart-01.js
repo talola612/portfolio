@@ -10,7 +10,7 @@ const height = 400 - margin.top - margin.bottom
 const width = 700 - margin.left - margin.right
 
 const svg = d3
-  .select('#chart-02')
+  .select('#chart-01')
   .append('svg')
   .attr('height', height + margin.top + margin.bottom)
   .attr('width', width + margin.left + margin.right)
@@ -70,7 +70,6 @@ Promise.all([
 function ready([initial, total]) {
   const approvals = total.map(d => +d['Total Approvals'])
 
-  console.log(total)
   const max = d3.max(approvals)
 
   yPositionScale.domain([0, max + 100])
@@ -104,7 +103,6 @@ function ready([initial, total]) {
       return yPositionScale(d['Initial Approvals'])
     })
     .attr('cx', function(d) {
-      console.log(d)
       return xPositionScale(d['Fiscal Year'])
     })
     .attr('fill', 'green')
@@ -120,7 +118,6 @@ function ready([initial, total]) {
       return yPositionScale(d['Initial Denials'])
     })
     .attr('cx', function(d) {
-      console.log(d)
       return xPositionScale(d['Fiscal Year'])
     })
     .attr('fill', 'red')
@@ -157,7 +154,6 @@ function ready([initial, total]) {
       return yPositionScale(d['Total Approvals'])
     })
     .attr('cx', function(d) {
-      console.log(d)
       return xPositionScale(d['Fiscal Year'])
     })
     .attr('fill', 'green')
@@ -174,7 +170,6 @@ function ready([initial, total]) {
       return yPositionScale(d['Total Denials'])
     })
     .attr('cx', function(d) {
-      console.log(d)
       return xPositionScale(d['Fiscal Year'])
     })
     .attr('fill', 'red')
