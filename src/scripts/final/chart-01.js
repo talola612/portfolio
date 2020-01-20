@@ -385,7 +385,7 @@ function ready([initial, total]) {
     svg.selectAll('circle').style('visibility', 'visible')
     svg.selectAll('.initial').attr('opacity', 0.3)
     svg.selectAll('rect').style('visibility', 'visible')
-    svg.selectAll('.legend2').style('visibility', 'visible')
+    // svg.selectAll('.legend2').style('visibility', 'visible')
     svg.selectAll('.legend').style('visibility', 'hidden')
     svg.selectAll('.at').style('visibility', 'hidden')
   })
@@ -396,7 +396,7 @@ function ready([initial, total]) {
     svg.selectAll('.initial').attr('opacity', 0.3)
     svg.selectAll('rect').style('visibility', 'visible')
 
-    svg.selectAll('.legend2').style('visibility', 'visible')
+    // svg.selectAll('.legend2').style('visibility', 'visible')
     svg.selectAll('.legend').style('visibility', 'hidden')
     svg.selectAll('.at').style('visibility', 'visible')
 
